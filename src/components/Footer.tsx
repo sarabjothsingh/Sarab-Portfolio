@@ -1200,7 +1200,7 @@ const Footer = () => {
               <div className="space-y-3 text-muted-foreground">
                 <p className="hover:text-primary transition-colors cursor-pointer">📧 sarabjothbhatia@gmail.com</p>
                 <p>📍 India</p>
-                <p>🎯 Open to opportunities</p>
+                <p>🎯 Open to opportunities!</p>
               </div>
             </motion.div>
           </motion.div>
