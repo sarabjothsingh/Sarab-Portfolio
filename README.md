@@ -1,50 +1,27 @@
-My Portfolio Website
+Portfolio Website
 
-Welcome to my personal portfolio! This website serves as a showcase of my skills, projects, and passion for technology. Built as a 4th-year B.Tech student specializing in AI, this project highlights my journey and abilities as a developer.
-About Me
-
-I am a final-year Computer Science and Engineering student with a specialization in Artificial Intelligence. My passion lies in building innovative solutions, particularly in the domain of web development and AI. This portfolio is a reflection of my skills and my dedication to learning and creating.
-Technologies Used
+Welcome to my personal portfolio! This site showcases my skills, projects, and passion for web and AI development.
+Technologies
 
     Frontend: React, TypeScript
 
     Styling: Tailwind CSS
 
-    Deployment: Vite
-
-Features
-
-    Responsive Design: The website is fully responsive and looks great on all devices, from mobile phones to desktops.
-
-    Project Showcase: A dedicated section to display my key projects, including descriptions and links.
-
-    Interactive UI: Smooth animations and a clean, modern user interface.
-
-    Contact Form: A simple way for visitors to get in touch.
+    Build Tool: Vite
 
 Getting Started
 
-To get a local copy up and running, follow these simple steps.
-
-    Clone the repository:
+    Clone the repo:
 
     git clone <YOUR_REPO_URL>
-
-
-    Navigate to the project directory:
-
-    cd <YOUR_PROJECT_NAME>
-
 
     Install dependencies:
 
     npm install
 
-
-    Run the development server:
+    Run the server:
 
     npm run dev
-
 
 Contact
 
@@ -52,6 +29,4 @@ Contact
 
     LinkedIn: https://www.linkedin.com/in/sarabjothbhatia/
 
-Feel free to connect with me!
-
-© 2024 Sarab. All Rights Reserved.
+© 2025 Sarab.
