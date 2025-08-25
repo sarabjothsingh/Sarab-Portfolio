@@ -767,7 +767,7 @@ const Hero = () => {
       {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center justify-center gap-0">
         {/* Large, custom font ScrambledText for Name */}
-        <span className="block text-8xl font-extrabold font-serif text-white p-0 m-0 select-none leading-tight">
+        <span className="block text-xl font-extrabold font-serif text-white p-0 m-0 select-none leading-tight">
           <ScrambledText
             className="scrambled-text-demo text-white p-0 m-0"
             radius={75}
@@ -779,7 +779,7 @@ const Hero = () => {
           </ScrambledText>
         </span>
         {/* Rotating Text directly below name, no extra space */}
-        <span className="block text-xl text-white p-0 mt-4 leading-tight">
+        <span className="block text-l text-white p-0 mt-4 leading-tight">
           <RotatingText
             texts={["AI and ML", "Web Development", "Research", "Problem Solving"]}
             rotationInterval={2500}
@@ -803,14 +803,19 @@ const Hero = () => {
         </div>
       </div>
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+      <motion.div
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10"
+        animate={{ y: [0, 10, 0] }}
+        transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
+      >
         <button
           onClick={() => scrollToSection('about')}
+          aria-label="Scroll to About section"
           className="p-2 rounded-full bg-white text-black hover:bg-gray-200 transition"
         >
           <ChevronDown />
         </button>
-      </div>
+      </motion.div>
     </section>
   );
 };
