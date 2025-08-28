@@ -318,7 +318,8 @@ const Experience = () => {
       technologies: ["Machine Learning", "Python", "Pandas", "Scikit-learn"],
       icon: <GraduationCap className="w-5 h-5" />,
       color: "text-purple-400",
-      bgColor: "bg-purple-400/10"
+      bgColor: "bg-purple-400/10",
+      link: "https://www.coursera.org/account/accomplishments/verify/K5TL0NJ7S7NV"
     },
 
     // Achievements
