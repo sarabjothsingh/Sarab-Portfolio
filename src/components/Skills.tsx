@@ -455,7 +455,7 @@ const Skills = () => {
       bgColor: "bg-green-400/10",
       borderColor: "border-green-400/20",
       spotlightColor: "rgba(0, 255, 128, 0.2)",
-      skills: ["Node.js", "MongoDB", "MySQL"]
+      skills: ["MongoDB", "MySQL"]
     },
     {
       title: "AI/ML",
